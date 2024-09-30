@@ -6,7 +6,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <IsAspireHost>true</IsAspireHost>
-        <UserSecretsId>9351540C-7C80-47F2-B851-7BFC1FEF284F</UserSecretsId>
+        <UserSecretsId>A38E0C9C-38C9-4EB8-B107-D9566D0D92B6</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\WebApi\WebApi.csproj" />
+      <ProjectReference Include="..\Flex.Pay.Backoffice.WebApi\Flex.Pay.Backoffice.WebApi.csproj" />
     </ItemGroup>
 
 </Project>
