@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+    <Import Project="./../BackOffice.props"/>
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <IsAspireHost>true</IsAspireHost>
@@ -11,10 +11,14 @@
 
     <ItemGroup>
         <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.2"/>
+<!--        <PackageReference Include="Aspire.Hosting.Garnet" Version="8.2.0" />-->
+        <PackageReference Include="Aspire.Hosting.Redis" Version="8.2.0" />
+        <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="8.2.0" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Flex.Pay.Backoffice.WebApi\Flex.Pay.Backoffice.WebApi.csproj" />
+      <ProjectReference Include="..\Flex.Pay.Backoffice.Worker\Flex.Pay.Backoffice.Worker.csproj" />
     </ItemGroup>
 
 </Project>

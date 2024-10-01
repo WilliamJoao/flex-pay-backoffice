@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Flex.Pay.Backoffice.WebApi.Controllers;
+namespace Flex.Pay.Backoffice.Controllers;
 
 [ApiController]
 [Route("[controller]")]

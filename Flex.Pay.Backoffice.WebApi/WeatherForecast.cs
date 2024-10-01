@@ -1,4 +1,4 @@
-namespace Flex.Pay.Backoffice.WebApi;
+namespace Flex.Pay.Backoffice;
 
 public class WeatherForecast
 {
